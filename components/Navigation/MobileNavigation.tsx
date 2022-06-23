@@ -50,16 +50,14 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         <div className="navigation-top__left">
           <h4 className="navigation-h4">DONT BE A STRANGER</h4>
           <div className="navigation-top__left--links">
-            <a href="https://github.com/adeolaadeoti" rel="noopener" target="_blank">
+            <a href="https://github.com/shoaib-jamal" rel="noopener" target="_blank">
               👾 GH
             </a>
-            <a href="https://twitter.com/adeolajs" rel="noopener" target="_blank">
-              🐦 TW
-            </a>
-            <a href="https://www.linkedin.com/in/adeoladev" rel="noopener" target="_blank">
+  
+            <a href="https://www.linkedin.com/in/shoaib-jamal-web rel="noopener" target="_blank">
               💼 LD
             </a>
-            <a href="https://www.instagram.com/adeolaadeoti_" rel="noopener" target="_blank">
+            <a href="https://www.instagram.com/dev.shoaib" rel="noopener" target="_blank">
               📸 IN
             </a>
           </div>
@@ -67,7 +65,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         <div className="navigation-top__right">
           <h4 className="navigation-h4">HAVE AN IDEA?</h4>
           <a
-            href="mailto:adeolaonigegeara@gmail.com"
+            href="mailto:m.shoaib.jamal@outlook.com"
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
@@ -75,7 +73,6 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           </a>
         </div>
       </motion.div>
-
       <motion.div
         animate={
           isOpen
@@ -89,36 +86,32 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           <a
             target="_blank"
             rel="noopener"
-            href="https://alexxandria.vercel.app/"
+            href="https://qafexpress.com"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/alexxandria-nav.webp" alt="alexxandria" />
+            <img src="webp/alexxandria-1.webp" alt="alexxandria" />
             <h2>
-              Alexxandria
-              <br />
-              Forque
+              QafExpress
             </h2>
           </a>
           <a
-            href="https://pixelchef.netlify.app/"
+            href="https://www.shainoitalia.com/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/pixelchef-nav.webp" alt="pixelChef" />
-            <h2>PixelChef</h2>
+            <img src="webp/pixelchef-1.webp" alt="pixelChef" />
+            <h2>Shaino Italia</h2>
           </a>
           <a
-            href="https://adeolaadeoti.netlify.app/"
+            href="https://aleegou.com/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/adeola-1.webp" alt="adeola" />
+            <img src="webp/heatrow-1.webp" alt="adeola" />
             <h2>
-              AdeolaAdeoti
-              <br />
-              Version 1
+              Aleegou
             </h2>
           </a>
         </div>
