@@ -123,39 +123,39 @@ const index: React.FC<indexProps> = ({}) => {
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
           <link rel="icon" href="svg/favicon.svg" />
-          <link href="https://adeolaadeoti.xyz/" rel="canonical" />
+          <link href="https://shoaib.tk/" rel="canonical" />
           <meta name="theme-color" content="#10101A" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>Adeola Adeoti 🚀 &mdash; Frontend Devloper</title>
+          <title>Shoaib Jamal 🚀 &mdash; Designer & Developer</title>
           <meta
             name="description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my calling."
           />
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Shoaib Jamal 🚀 &mdash; Designer & Developer"
           />
-          <meta property="og:url" content="https://adeolaadeoti.xyz/" />
+          <meta property="og:url" content="https://shoaib.tk/" />
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my calling."
           />
           <meta
             name="twitter:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Shoaib Jamal 🚀 &mdash; Designer & Developer"
           />
           <meta
             name="twitter:description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my calling."
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://adeolaadeoti.xyz/" />
+          <meta name="twitter:url" content="https://shoaib.tk/" />
         </Head>
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
@@ -180,13 +180,13 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
-              <p className="preloader__text">HTML</p>
-              <p className="preloader__text">CSS/SCSS</p>
-              <p className="preloader__text">JAVASCRIPT</p>
-              <p className="preloader__text">TYPESCRIPT</p>
-              <p className="preloader__text">REACT JS</p>
-              <p className="preloader__text">NEXT JS</p>
-              <p className="preloader__text">FRAMER MOTION</p>
+              <p className="preloader__text">VETERAN</p>
+              <p className="preloader__text">PROGRAMMER</p>
+              <p className="preloader__text">WEB DEVELOPER</p>
+              <p className="preloader__text">ANIMATOR</p>
+              <p className="preloader__text">ILLUSTRATOR</p>
+              <p className="preloader__text">I AM</p>
+              <p className="preloader__text">SHOAIB JAMAL</p>
             </motion.div>
           </div>
         </motion.div>
@@ -276,17 +276,14 @@ const index: React.FC<indexProps> = ({}) => {
                 </div>
               </div>
             </div>
-            <div className="header__footer--right">
-              <a href="https://github.com/adeolaadeoti" rel="noopener" target="_blank">
+           <div className="header__footer--right">
+              <a href="https://github.com/shoaib-jamal" rel="noopener" target="_blank">
                 👾 GH
               </a>
-              <a href="https://twitter.com/adeolajs" rel="noopener" target="_blank">
-                🐦 TW
-              </a>
-              <a href="https://www.linkedin.com/in/adeoladev" rel="noopener" target="_blank">
+              <a href="https://www.linkedin.com/in/shoaib-jamal-web" rel="noopener" target="_blank">
                 💼 LD
               </a>
-              <a href="https://www.instagram.com/adeolaadeoti_" rel="noopener" target="_blank">
+              <a href="https://www.instagram.com/dev.shoaib" rel="noopener" target="_blank">
                 {" "}
                 📸 IN
               </a>
@@ -295,7 +292,7 @@ const index: React.FC<indexProps> = ({}) => {
         </div>
         <main className="container">
           <p className="about-text">
-            Hello stranger! 👋, my name is adeola and I am a frontend engineer,
+            Hello stranger! 👋, my name is Shoaib and I am a software engineer,
             passionate <br /> about digital products that help people experience
             everyday life, not endure it.
           </p>
@@ -310,7 +307,7 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
+                  LARAVEL, VUE JS, SQL
                 </h4>
               </div>
               <div
@@ -328,35 +325,29 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="alexxandria-anim"
                   className="heading-2"
                 >
-                  Alexxandria
-                  <br /> Forque
+                  Qaf
+                  <br /> Express
                 </h2>
                 <a
                 rel="noopener"
                   target="_blank"
-                  href="https://alexxandria.vercel.app/"
+                  href="https://qafexpress.com"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
+                  <a href="https://www.instagram.com/qafexpress/">
+                    <img src="svg/instagram.svg" alt="ig icon" />
                   </a>
-                  <a
-                  rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/alexxandria"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
+
                 </div>
               </div>
             </div>
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">REACT JS, FRAMER MOTION</h4>
+                <h4 className="heading-4">REACT JS, PHP, ANGULAR</h4>
               </div>
               <div
                 className="project-card__middle"
@@ -373,27 +364,21 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="pixelchef-anim"
                   className="heading-2"
                 >
-                  PixelChef
+                  Shaino Italia
                 </h2>
                 <a
                 rel="noopener"
                   target="_blank"
-                  href="https://pixelchef.netlify.app/"
+                  href="https://www.shainoitalia.com"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
+                  <a href="https://www.instagram.com/shaino_italia/">
+                    <img src="svg/instagram.svg" alt="ig icon" />
                   </a>
-                  <a
-                  rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/pixelchef"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -401,7 +386,7 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
+                  NEXT JS, FIREBASE, PHP
                 </h4>
               </div>
               <div
@@ -419,11 +404,11 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="heatrow-anim"
                   className="heading-2"
                 >
-                  Heatrow
-                  <br /> Estate
+                  Aleegou
+                  <br /> E-Commerce
                 </h2>
                 <a
-                  href="https://heatrow.vercel.app/"
+                  href="https://aleegou.com"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
@@ -431,68 +416,16 @@ const index: React.FC<indexProps> = ({}) => {
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
+                  <a href="https://www.instagram.com/aleegou_official/">
+                    <img src="svg/instagram.svg" alt="ig icon" />
                   </a>
-                  <a
-                  rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/heatrow"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
+                 
                 </div>
               </div>
             </div>
 
-            <div className="project-card">
-              <div className="project-card__left">
-                <h4 className="heading-4">HTML, SCSS, JAVASCRIPT, GSAP</h4>
-              </div>
-              <div
-                className="project-card__middle"
-                data-displacement="webp/myDistorsionImage.webp"
-              >
-                <img src="webp/adeola-1.webp" alt="adeola model" />
-                <img src="webp/adeola-2.webp" alt="adeola logo" />
-              </div>
-              <div className="project-card__right">
-                <h2
-                  data-scroll
-                  data-scroll-offset="35%"
-                  data-scroll-repeat={true}
-                  data-scroll-class="adeola-anim"
-                  className="heading-2"
-                >
-                  AdeolaAdeoti
-                  <br /> version 1
-                </h2>
-                <a
-                rel="noopener"
-                  target="_blank"
-                  href="https://adeolaadeoti.netlify.app/"
-                  className="project-card__link"
-                >
-                  VISIT THE WEBSITE
-                </a>
-                <div className="project-card__socials">
-                  <a
-                  rel="noopener"
-                    target="_blank"
-                    href="https://dribbble.com/shots/12338926-Adeola-Adeoti-Portfolio"
-                  >
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                  rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
-                </div>
-              </div>
-            </div>
+
+            
           </section>
           <section
             data-scroll
@@ -506,7 +439,7 @@ const index: React.FC<indexProps> = ({}) => {
                 <span>Mmmm, a little brag </span> <small>😊</small>
               </h1>
               <p className="paragraph paragraph__sub">
-                What people are saying about my last portfolio
+                What clients are saying about my projects
               </p>
             </div>
             <div className="section-reviews__bottom">
@@ -548,18 +481,14 @@ const index: React.FC<indexProps> = ({}) => {
               </div>
             </div>
           </section>
-          <section className="section-contact">
+           <section className="section-contact">
             <h1 className="heading-1">
               <span>Sold Yet? </span> <small>🤙</small>
             </h1>
             <h2 className="section-contact__h2">
-              Thanks for stopping by, I’m currently looking to join a new team of
-              creative designers and developers. If you think we might be a good
-              fit for one another, give me a
-              <a href="tel:+2349066383763"> call 🇳🇬 &nbsp;</a>
-              or send me an
+              Thanks for stopping by, I’m currently looking to work on more projects. If you think I am a perfect fit, send me an
               <a
-                href="mailto:adeolaonigegeara@gmail.com"
+                href="mailto:m.shoaib.jamal@outlook.com"
                 rel="noopener"
                 target="_blank"
               >
@@ -574,36 +503,30 @@ const index: React.FC<indexProps> = ({}) => {
             </h1>
             <p className="paragraph">Connect with me online</p>
             <div className="section-socials--links">
-              <a href="https://github.com/adeolaadeoti" rel="noopener" target="_blank">
+              <a href="https://github.com/shoaib-jamal" rel="noopener" target="_blank">
                 👾 GH
               </a>
-              <a href="https://twitter.com/adeolajs" rel="noopener" target="_blank">
-                🐦 TW
-              </a>
-              <a href="https://www.linkedin.com/in/adeoladev" rel="noopener" target="_blank">
+              <a href="https://www.linkedin.com/in/shoaib-jamal-web" rel="noopener" target="_blank">
                 💼 LD
               </a>
-              <a href="https://www.instagram.com/adeolaadeoti_" rel="noopener" target="_blank">
+              <a href="https://www.instagram.com/dev.shoaib" rel="noopener" target="_blank">
                 📸 IN
               </a>
             </div>
           </section>
         </main>
-        <footer className="footer">
-          <img
-            src="svg/adeola-logo-footer.svg"
-            alt="design and devloped by adeola"
-          />
+       <footer className="footer">
+           <p className="about-text">Copyright © Shoaib Jamal</p>
           <div className="footer__socials">
             <a
-              href="https://dribbble.com/shots/16100745-Adeola-Adeoti-Personal-Website"
+              href="https://instagram.com/dev.shoaib"
               target="_blank"
               rel="noopener"
             >
-              <img src="svg/dribble.svg" alt="dribble logo" />
+              <img src="svg/instagram.svg" alt="ig logo" />
             </a>
             <a
-              href="https://github.com/adeolaadeoti/adeolaadeoti-v2"
+              href="https://github.com/shoaib-jamal"
               target="_blank"
               rel="noopener"
             >
