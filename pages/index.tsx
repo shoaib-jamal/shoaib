@@ -516,7 +516,7 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
         </main>
        <footer className="footer">
-           <p className="about-text">Copyright © Shoaib Jamal</p>
+           <p className="about-text">Copyright © 2022 Design by Shoaib Jamal</p>
           <div className="footer__socials">
             <a
               href="https://instagram.com/dev.shoaib"
