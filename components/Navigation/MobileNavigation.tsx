@@ -54,7 +54,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
               👾 GH
             </a>
   
-            <a href="https://www.linkedin.com/in/shoaib-jamal-web rel="noopener" target="_blank">
+            <a href="https://www.linkedin.com/in/shoaib-jamal-web" rel="noopener" target="_blank">
               💼 LD
             </a>
             <a href="https://www.instagram.com/dev.shoaib" rel="noopener" target="_blank">
