@@ -118,7 +118,7 @@ const index: React.FC<indexProps> = ({}) => {
     }
   }
 
-  return (
+  return ()
     <>
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
