@@ -39,7 +39,7 @@ const index: React.FC<indexProps> = ({}) => {
   let lscroll: any;
 
   React.useEffect(() => {
-    ReactGa.initialize("UA-177100391-3");
+    ReactGa.initialize("G-PCXLRKZ1Q3");
     ReactGa.pageview(window.location.pathname + window.location.search);
 
     if (!refScroll.current) return;
@@ -132,7 +132,7 @@ const index: React.FC<indexProps> = ({}) => {
           <title>Shoaib Jamal 🚀 &mdash; Designer & Developer</title>
           <meta
             name="description"
-            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my profession."
           />
           <meta property="og:type" content="website" />
           <meta
@@ -143,7 +143,7 @@ const index: React.FC<indexProps> = ({}) => {
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
-            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my profession."
           />
           <meta
             name="twitter:title"
@@ -151,7 +151,7 @@ const index: React.FC<indexProps> = ({}) => {
           />
           <meta
             name="twitter:description"
-            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught Designer & Developer and turning ideas into real life products is my profession."
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
@@ -173,7 +173,7 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/adeola-logo-left.svg" alt="adeola logo" />
+              <img src="svg/adeola-logo-left.svg" alt="shoaib logo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
@@ -199,13 +199,13 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>turning ideas into </span> <br />
+                <span>turning <span className="header__hero--heading-gradient">ideas</span> into </span> <br />
                 <span>real life </span>
                 <span className="header__hero--heading-gradient">
                   products{" "}
                 </span>
                 <br />
-                <span>is my calling.</span>
+                <span>is my profession.</span>
               </div>
               <a
                 data-scroll-to
@@ -278,30 +278,29 @@ const index: React.FC<indexProps> = ({}) => {
             </div>
            <div className="header__footer--right">
               <a href="https://github.com/shoaib-jamal" rel="noopener" target="_blank">
-                👾 GH
+               <img src="svg/github.svg">
               </a>
               <a href="https://www.linkedin.com/in/shoaib-jamal-web" rel="noopener" target="_blank">
-                💼 LD
+                <img src="svg/linkedin.svg">
               </a>
               <a href="https://www.instagram.com/dev.shoaib" rel="noopener" target="_blank">
-                {" "}
-                📸 IN
+               <img src="svg/instagram.svg">
               </a>
             </div>
           </div>
         </div>
         <main className="container">
           <p className="about-text">
-            Hello stranger! 👋, my name is Shoaib and I am a software engineer,
+            Hi there! 👋, my name is Shoaib and I am a software engineer,
             passionate <br /> about digital products that help people experience
-            everyday life, not endure it.
+            everyday life, not just endure it. I have done many international-based commercial projects and in my spare time I like to contribute to Open Source projects.
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
-              <span>Yeah, I work hard </span> <small>💼</small>
+              <span>Yes, I work hard </span> <small>💼</small>
             </h1>
             <p className="paragraph">
-              Each project is unique. Here are some of my works.
+              My every project is unique. Here are some of my featured works.
             </p>
 
             <div className="project-card">
@@ -325,8 +324,7 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="alexxandria-anim"
                   className="heading-2"
                 >
-                  Qaf
-                  <br /> Express
+                  QafExpress
                 </h2>
                 <a
                 rel="noopener"
@@ -405,7 +403,6 @@ const index: React.FC<indexProps> = ({}) => {
                   className="heading-2"
                 >
                   Aleegou
-                  <br /> E-Commerce
                 </h2>
                 <a
                   href="https://aleegou.com"
@@ -436,10 +433,10 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <span>Mmmm, a little brag </span> <small>😊</small>
+                <span>Testimonials </span> <small>😊</small>
               </h1>
               <p className="paragraph paragraph__sub">
-                What clients are saying about my projects
+                What my clients are saying about my work
               </p>
             </div>
             <div className="section-reviews__bottom">
@@ -483,10 +480,10 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
            <section className="section-contact">
             <h1 className="heading-1">
-              <span>Sold Yet? </span> <small>🤙</small>
+              <span>What's next? </span> <small>🤙</small>
             </h1>
             <h2 className="section-contact__h2">
-              Thanks for stopping by, I’m currently looking to work on more projects. If you think I am a perfect fit, send me an
+              Thanks for stopping by, I’m currently looking to work on more projects. My services include Graphics, Web Design, Software Development & Animation. If you think I am a perfect fit, send me an
               <a
                 href="mailto:m.shoaib.jamal@outlook.com"
                 rel="noopener"
@@ -499,9 +496,9 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
-              <span>Dont be a stranger!</span> <small>👋</small>
+              <span>That's the end of my portfolio!</span> <small>👋</small>
             </h1>
-            <p className="paragraph">Connect with me online</p>
+            <p className="paragraph">Connect with me socially</p>
             <div className="section-socials--links">
               <a href="https://github.com/shoaib-jamal" rel="noopener" target="_blank">
                 👾 GH
@@ -516,7 +513,7 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
         </main>
        <footer className="footer">
-           <p className="about-text">Copyright © 2022 Design by Shoaib Jamal</p>
+           <p className="about-text">© 2022 Shoaib Jamal</p>
           <div className="footer__socials">
             <a
               href="https://instagram.com/dev.shoaib"
@@ -524,7 +521,7 @@ const index: React.FC<indexProps> = ({}) => {
               rel="noopener"
             >
               <img src="svg/instagram.svg" alt="ig logo" />
-            </a>
+            </a>&nbsp
             <a
               href="https://github.com/shoaib-jamal"
               target="_blank"
