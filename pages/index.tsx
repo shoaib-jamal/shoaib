@@ -118,7 +118,7 @@ const index: React.FC<indexProps> = ({}) => {
     }
   }
 
-  return ()
+  return (
     <>
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
@@ -278,13 +278,13 @@ const index: React.FC<indexProps> = ({}) => {
             </div>
            <div className="header__footer--right">
               <a href="https://github.com/shoaib-jamal" rel="noopener" target="_blank">
-               <img src="svg/github.svg">
+               <img src="svg/github.svg" />
               </a>
               <a href="https://www.linkedin.com/in/shoaib-jamal-web" rel="noopener" target="_blank">
-                <img src="svg/linkedin.svg">
+                <img src="svg/linkedin.svg" />
               </a>
               <a href="https://www.instagram.com/dev.shoaib" rel="noopener" target="_blank">
-               <img src="svg/instagram.svg">
+               <img src="svg/instagram.svg" />
               </a>
             </div>
           </div>
