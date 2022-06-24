@@ -293,7 +293,7 @@ const index: React.FC<indexProps> = ({}) => {
           <p className="about-text">
             Hi there! 👋, my name is Shoaib and I am a software engineer,
             passionate <br /> about digital products that help people experience
-            everyday life, not just endure it. I have done many international-based commercial projects and in my spare time I like to contribute to Open Source projects.
+            everyday life, not just <br />endure it. I have done many international-based commercial projects and<br /> in my spare time I like to contribute to Open Source projects.
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
