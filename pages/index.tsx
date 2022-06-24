@@ -199,7 +199,7 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>turning <span className="header__hero--heading-gradient">ideas</span> into </span> <br />
+                <span>turning</span> <span className="header__hero--heading-gradient">ideas</span> <span>into </span> <br />
                 <span>real life </span>
                 <span className="header__hero--heading-gradient">
                   products{" "}
@@ -521,7 +521,7 @@ const index: React.FC<indexProps> = ({}) => {
               rel="noopener"
             >
               <img src="svg/instagram.svg" alt="ig logo" />
-            </a>&nbsp
+            </a>
             <a
               href="https://github.com/shoaib-jamal"
               target="_blank"
