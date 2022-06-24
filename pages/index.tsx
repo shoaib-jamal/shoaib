@@ -39,7 +39,7 @@ const index: React.FC<indexProps> = ({}) => {
   let lscroll: any;
 
   React.useEffect(() => {
-    ReactGa.initialize("G-PCXLRKZ1Q3");
+    ReactGa.initialize("UA-232867650-1");
     ReactGa.pageview(window.location.pathname + window.location.search);
 
     if (!refScroll.current) return;
