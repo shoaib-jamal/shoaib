@@ -86,7 +86,7 @@ const index: React.FC<indexProps> = ({}) => {
 
     console.clear();
     console.log.apply(console, [
-      "%c Designed and Developed by Adeola Adeoti %c %c🚀 %c\n",
+      "%c Designed and Developed by Shoaib %c %c🚀 %c\n",
       "color: #fff; background: #8000ff; padding:5px 0;",
       "color: #fff; background: #242424; padding:5px 0 5px 5px;",
       "background: #242424; padding:5px 0",
@@ -129,7 +129,7 @@ const index: React.FC<indexProps> = ({}) => {
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>Shoaib Jamal 🚀 &mdash; Designer & Developer</title>
+          <title>Shoaib Khan 🚀 &mdash; Designer & Developer</title>
           <meta
             name="description"
             content="I'm a self-taught Designer & Developer and turning ideas into real life products is my profession."
@@ -137,7 +137,7 @@ const index: React.FC<indexProps> = ({}) => {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Shoaib Jamal 🚀 &mdash; Designer & Developer"
+            content="Shoaib Khan 🚀 &mdash; Designer & Developer"
           />
           <meta property="og:url" content="https://shoaib.tk/" />
           <meta property="og:image" content="webp/preview-image.png" />
@@ -147,7 +147,7 @@ const index: React.FC<indexProps> = ({}) => {
           />
           <meta
             name="twitter:title"
-            content="Shoaib Jamal 🚀 &mdash; Designer & Developer"
+            content="Shoaib Khan 🚀 &mdash; Designer & Developer"
           />
           <meta
             name="twitter:description"
@@ -283,7 +283,7 @@ const index: React.FC<indexProps> = ({}) => {
               <a href="https://www.linkedin.com/in/shoaib-jamal-web" rel="noopener" target="_blank">
                 <img src="svg/linkedin.svg" />
               </a>
-              <a href="https://www.instagram.com/dev.shoaib" rel="noopener" target="_blank">
+              <a href="https://www.instagram.com/shoaib_khan115" rel="noopener" target="_blank">
                <img src="svg/instagram.svg" />
               </a>
             </div>
@@ -485,7 +485,7 @@ const index: React.FC<indexProps> = ({}) => {
             <h2 className="section-contact__h2">
               Thanks for stopping by, I’m currently looking to work on more projects. My services include Graphics, Web Design, Software Development & Animation. If you think I am a perfect fit, send me an
               <a
-                href="mailto:m.shoaib.jamal@outlook.com"
+                href="mailto:hi@shoaib.tk"
                 rel="noopener"
                 target="_blank"
               >
@@ -506,17 +506,17 @@ const index: React.FC<indexProps> = ({}) => {
               <a href="https://www.linkedin.com/in/shoaib-jamal-web" rel="noopener" target="_blank">
                 💼 LD
               </a>
-              <a href="https://www.instagram.com/dev.shoaib" rel="noopener" target="_blank">
+              <a href="https://www.instagram.com/shoaib_khan115" rel="noopener" target="_blank">
                 📸 IN
               </a>
             </div>
           </section>
         </main>
        <footer className="footer">
-           <p className="about-text">© 2022 Shoaib Jamal</p>
+           <p className="about-text">© 2022 Shoaib Khan</p>
           <div className="footer__socials">
             <a
-              href="https://instagram.com/dev.shoaib"
+              href="https://instagram.com/shoaib_khan115"
               target="_blank"
               rel="noopener"
             >
