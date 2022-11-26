@@ -48,7 +48,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         className="navigation-top"
       >
         <div className="navigation-top__left">
-          <h4 className="navigation-h4">DONT BE A STRANGER</h4>
+          <h4 className="navigation-h4">CONNECT SOCIALLY</h4>
           <div className="navigation-top__left--links">
             <a href="https://github.com/shoaib-jamal" rel="noopener" target="_blank">
               👾 GH
