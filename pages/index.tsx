@@ -15,9 +15,6 @@ interface Ireply {
   reply: string;
 }
 
-const locomotiveScroll =
-  typeof window !== `undefined` ? require("locomotive-scroll").default : null;
-
 const hoverEffect =
   typeof window !== `undefined` ? require("hover-effect").default : null;
 
@@ -42,35 +39,11 @@ const index: React.FC<indexProps> = ({}) => {
     ReactGa.initialize("UA-232867650-1");
     ReactGa.pageview(window.location.pathname + window.location.search);
 
-    if (!refScroll.current) return;
-    // @ts-ignore
-    lscroll = new locomotiveScroll({
-      el: refScroll.current,
-      smooth: true,
-      reloadOnContextChange: true,
-      multiplier: 0.65,
-      inertia: 0.3,
-    });
-
-    // Scroll update all pages
-
-document.addEventListener('DOMContentLoaded', function() {
-
-    function ScrollUpdateDelay() {
-        setTimeout(function(){ scroll.update(); }, 500);
    
-    }
 
-    ScrollUpdateDelay();
-});
+   
     
-    // update locomotive scroll
-    window.addEventListener("load", () => {
-      let image = document.querySelector("img");
-      // @ts-ignore
-      const isLoaded = image!.complete && image!.naturalHeight !== 0;
-      lscroll.update();
-    });
+   
 
     // image hover effect
     Array.from(document.querySelectorAll(".project-card__middle")).forEach(
@@ -529,9 +502,9 @@ document.addEventListener('DOMContentLoaded', function() {
           </section>
         </main>
        <footer className="footer">
-           <p className="about-text">© 2022 Shoaib Khan</p>
+           <p className="about-text">© 2022 Shoaib Khan. All rights reserved</p>
           <div className="footer__socials">
-            <p className="about-text"> <a href="mailto:hi@shoaib.tk">📧 hi@shoaib.tk</a></p>
+           
           </div>
         </footer>
       </div>
