@@ -291,16 +291,19 @@ const index: React.FC<indexProps> = ({}) => {
         </div>
         <main className="container">
           <p className="about-text">
-            Hi there! 👋, my name is Shoaib and I am a software engineer,
+            Hi there! 👋, my name is <b>Shoaib Khan</b> and I am a full stack developer and a software engineer,
             passionate <br /> about digital products that help people experience
-            everyday life, not just <br />endure it. I have done many international-based commercial projects and<br /> in my spare time I like to contribute to Open Source projects.
+            everyday life, not just <br />endure it. I have completed many international commercial projects alone, and<br /> 
+            in my spare time I like to contribute to Open Source projects. I've been self-taught almost all web production languages and I believe that experience matters more than certification. 
+            I have completed
+            every tech-related<br /> work with success + client satisfaction and my portfolio shows the glimpse of the quality of my work.
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
               <span>Yes, I work hard </span> <small>💼</small>
             </h1>
             <p className="paragraph">
-              My every project is unique. Here are some of my featured works.
+              My every project is unique and successful. Here are some of my featured works.
             </p>
 
             <div className="project-card">
