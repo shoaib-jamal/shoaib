@@ -164,7 +164,7 @@ const index: React.FC<indexProps> = ({}) => {
           data-scroll
           data-scroll-sticky
           data-scroll-target="#menu-target"
-          animate={{ top: "-100vh", transition: { ...transition, delay: 9 } }}
+          animate={{ top: "-100vh", transition: { ...transition, delay: 7 } }}
           className="preloader"
         >
           <div className="preloader__wrapper">
@@ -519,7 +519,7 @@ const index: React.FC<indexProps> = ({}) => {
        <footer className="footer">
            <p className="about-text">© 2022 Shoaib Khan</p>
           <div className="footer__socials">
-            <a href="mailto:hi@shoaib.tk">📧 hi@shoaib.tk</a>
+            <p className="about-text"> <a href="mailto:hi@shoaib.tk">📧 hi@shoaib.tk</a></p>
           </div>
         </footer>
       </div>
