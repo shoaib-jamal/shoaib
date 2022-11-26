@@ -484,7 +484,7 @@ const index: React.FC<indexProps> = ({}) => {
               <span>What's next? </span> <small>🤙</small>
             </h1>
             <h2 className="section-contact__h2">
-              Thanks for stopping by, I’m currently looking to work on more projects. My services include Graphics, Web Design, Software Development & Animation. If you think I am a perfect fit, send me an
+              Thanks for visiting my portfolio. My services include Graphics, Web Design, Software Development and any tech-related work. If you think I am a perfect fit, send me an
               <a
                 href="mailto:hi@shoaib.tk"
                 rel="noopener"
@@ -502,13 +502,16 @@ const index: React.FC<indexProps> = ({}) => {
             <p className="paragraph">Connect with me socially</p>
             <div className="section-socials--links">
               <a href="https://github.com/shoaib-jamal" rel="noopener" target="_blank">
-                👾 GH
+                               <img src="svg/github.svg" />
+
               </a>
               <a href="https://www.linkedin.com/in/shoaib-jamal-web" rel="noopener" target="_blank">
-                💼 LD
+                              <img src="svg/linkedin.svg" />
+
               </a>
               <a href="https://www.instagram.com/shoaib_khan115" rel="noopener" target="_blank">
-                📸 IN
+                               <img src="svg/instagram.svg" />
+
               </a>
             </div>
           </section>
@@ -516,20 +519,7 @@ const index: React.FC<indexProps> = ({}) => {
        <footer className="footer">
            <p className="about-text">© 2022 Shoaib Khan</p>
           <div className="footer__socials">
-            <a
-              href="https://instagram.com/shoaib_khan115"
-              target="_blank"
-              rel="noopener"
-            >
-              <img src="svg/instagram.svg" alt="ig logo" />
-            </a>
-            <a
-              href="https://github.com/shoaib-jamal"
-              target="_blank"
-              rel="noopener"
-            >
-              <img src="svg/github.svg" alt="github logo" />
-            </a>
+            <a href="mailto:hi@shoaib.tk">📧 hi@shoaib.tk</a>
           </div>
         </footer>
       </div>
