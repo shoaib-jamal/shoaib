@@ -52,6 +52,18 @@ const index: React.FC<indexProps> = ({}) => {
       inertia: 0.3,
     });
 
+    // Scroll update all pages
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    function ScrollUpdateDelay() {
+        setTimeout(function(){ scroll.update(); }, 500);
+   
+    }
+
+    ScrollUpdateDelay();
+});
+    
     // update locomotive scroll
     window.addEventListener("load", () => {
       let image = document.querySelector("img");
