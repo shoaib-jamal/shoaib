@@ -33,7 +33,7 @@ const index: React.FC<indexProps> = ({}) => {
   if (error) console.log(error);
 
   const refScroll = React.useRef(null);
-  let lscroll: any;
+
 
   React.useEffect(() => {
     ReactGa.initialize("UA-232867650-1");
