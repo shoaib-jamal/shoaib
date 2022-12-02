@@ -166,6 +166,8 @@ const index: React.FC<indexProps> = ({}) => {
               className="preloader__right"
             >
               <p className="preloader__text">TECH-SAVYY</p>
+               <p className="preloader__text">STUDENT</p>
+               <p className="preloader__text">FREELANCER</p>
               <p className="preloader__text">PROGRAMMER</p>
               <p className="preloader__text">WEB DEVELOPER</p>
               <p className="preloader__text">I AM</p>
