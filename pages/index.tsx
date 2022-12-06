@@ -149,7 +149,7 @@ const index: React.FC<indexProps> = ({}) => {
           data-scroll
           data-scroll-sticky
           data-scroll-target="#menu-target"
-          animate={{ top: "-100vh", transition: { ...transition, delay: 7 } }}
+          animate={{ top: "-100vh", transition: { ...transition, delay: 9 } }}
           className="preloader"
         >
           <div className="preloader__wrapper">
