@@ -379,8 +379,8 @@ const index: React.FC<indexProps> = ({}) => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/heatrow-1.webp" alt="heatrow" />
-                <img src="webp/heatrow-2.webp" alt="heatrow logo" />
+                <img src="webp/verdanza1.png" alt="heatrow" />
+                <img src="webp/verdanza2.png" alt="heatrow logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -390,22 +390,17 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="heatrow-anim"
                   className="heading-2"
                 >
-                  Aleegou
+                  Verdanza
                 </h2>
                 <a
-                  href="https://aleegou.com"
+                  href="https://verdanza.store"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
-                <div className="project-card__socials">
-                  <a href="https://www.instagram.com/aleegou_official/">
-                    <img src="svg/instagram.svg" alt="ig icon" />
-                  </a>
-                 
-                </div>
+                
               </div>
             </div>
 
