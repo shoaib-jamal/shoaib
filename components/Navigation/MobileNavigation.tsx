@@ -65,7 +65,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         <div className="navigation-top__right">
           <h4 className="navigation-h4">HAVE AN IDEA?</h4>
           <a
-            href="mailto:hi@shoaib.tk"
+            href="mailto:m.shoaib.jamal@outlook.com"
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
@@ -89,7 +89,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             href="https://qafexpress.com"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/alexxandria-1.webp" alt="alexxandria" />
+            <img src="webp/q1.png" alt="alexxandria" />
             <h2>
               QafExpress
             </h2>
@@ -100,18 +100,18 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/pixelchef-1.webp" alt="pixelChef" />
+            <img src="webp/shaino1.png" alt="pixelChef" />
             <h2>Shaino Italia</h2>
           </a>
           <a
-            href="https://aleegou.com/"
+            href="https://verdanza.store/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/heatrow-1.webp" alt="adeola" />
+            <img src="webp/verdanza1.png" alt="adeola" />
             <h2>
-              Aleegou
+              Verdanza
             </h2>
           </a>
         </div>
